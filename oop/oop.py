@@ -8,8 +8,11 @@ class Car:
         self.brand = "Toyota"
         print("Car created")
 
-car1 = Car('Arbin')
+car1 = Car('Arbin') 
 print(f"Owner: {car1.owner}")
 print(car1.color)
 print(car1.brand)
+
+#👉 Object = instance (car1)
+#👉 Attributes = variables inside object (owner, color, brand)
 
