@@ -1,6 +1,13 @@
 
 # Object-Oriented Programming (OOP) in Python Part-1
 class Car:
+
+    brand_name = "Mercedes"
+    #default constructors
+    def __init__ (self):
+        pass
+
+    #parameterized constructor
     def __init__(self, owner, color, brand):
         print("Car is being initialized...")
         self.owner = owner
@@ -11,8 +18,15 @@ class Car:
 car1 = Car('Arbin', 'Red', 'Toyota') 
 print(f"Owner: {car1.owner}")
 print(car1.color)
-print(car1.brand)
+print(Car.brand_name)
 
-#👉 Object = instance (car1)
+
+
+
+#👉 Object = instan
+# 
+# 
+# 
+# ce (car1)
 #👉 Attributes = variables inside object (owner, color, brand)
 
