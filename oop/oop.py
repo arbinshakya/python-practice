@@ -23,10 +23,6 @@ print(Car.brand_name)
 
 
 
-#👉 Object = instan
-# 
-# 
-# 
-# ce (car1)
+#👉 Object = instance (car1)
 #👉 Attributes = variables inside object (owner, color, brand)
 

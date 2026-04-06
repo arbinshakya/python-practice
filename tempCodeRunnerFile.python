@@ -1,0 +1,22 @@
+import logging
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s",
+    handlers=[
+        logging.FileHandler("app.log"),     # Save logs to file
+        logging.StreamHandler()             # Show logs on console
+    ]
+)
+
+logger = logging.getLogger("my_app")
+
+# Example: logging when asking for input
+user_name = input("Enter your name: ")
+logger.info(f"User entered name: {user_name}")
+
+age = input("Enter your age: ")
+logger.info(f"User entered age: {age}")
+
+print(f"Hello {user_name}, you are {age} years old!")

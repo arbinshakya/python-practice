@@ -4,7 +4,6 @@ class Student:
     def __init__ (self):
         pass
 
-
     def __init__ (self, name, marks):
         self.name = name
         self.marks = marks
@@ -15,7 +14,6 @@ class Student:
             sum += val
         
         return sum/len(self.marks)
-
 
 
         # return sum(self.marks) / len(self.marks)
