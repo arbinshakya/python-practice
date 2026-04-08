@@ -1,4 +1,7 @@
 #super method
+from class_method import  sum2
+
+print(sum2(2,2))
 
 class Car:
     def __init__ (self, type):
