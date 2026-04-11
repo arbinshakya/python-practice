@@ -1,5 +1,9 @@
 #property decorator
 #note: we use @property decorator on any method in the calss to sue the method as a property
+import pyfiglet
+
+f = pyfiglet.Figlet(font='slant')
+print(f.renderText('Property Decorator'))
 
 class Student:
     def __init__ (self, phy, che, math):
