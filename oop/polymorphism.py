@@ -20,12 +20,6 @@ class Complex:
         return Complex(newReal, newImg)
         
     
-
-
-    
-
-
-
 num1 = Complex(1, 3)
 num1.showNumber()
 
