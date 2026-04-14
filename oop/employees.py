@@ -7,7 +7,7 @@ class Employee:
     def showDetails(self):
         print("role = ",self.role)
         print("dept = ",self.dept)
-        print("saslary = ",self.salary)
+        print("salary = ",self.salary)
 
 
 class Engineer(Employee):
