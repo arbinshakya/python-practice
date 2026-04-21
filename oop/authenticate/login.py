@@ -7,12 +7,13 @@ class User:
         self.password = password
 
 
+class SignUpSystem:
+    def __init__(self):
+        pass
+
 class LoginSystem:
     def __init__(self):
-        self.users = [
-            User("admin", "1234"),
-            User("arbin","4321")
-        ]
+        self.users = User
 
     def authenticate(self, username, password):
         for user in self.users:
