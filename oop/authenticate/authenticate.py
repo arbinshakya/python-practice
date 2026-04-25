@@ -1,6 +1,7 @@
 #login system
 from getpass import getpass
 import pwinput
+import pyfiglet
 
 class User:
     def __init__ (self, username, password):
@@ -37,8 +38,10 @@ class Login_System:
     def authenticate(self, username, password):
         for user in self.users:
             if user.username == username and user.password == password:
-                return True
-            return False
+                f = pyfiglet.Figlet(font='slant')
+                print(f.renderText(f"Welcome {user.username} to echo chat"))
+                return True        
+        return False
             
     def login(self):
         username = input("Enter Username: ")
@@ -60,6 +63,7 @@ class Login_System:
                 self.signup()
             elif choice == '2':
                 self.login()
+                break
             elif choice == '3':
                 print('Good bye')
                 break
