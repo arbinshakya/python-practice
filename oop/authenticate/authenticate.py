@@ -71,13 +71,11 @@ class Login_System:
                 print('Invalid choice')
 
 
-
-
-
-
 if __name__ == "__main__":
     system = Login_System()
     system.menu()
+
+print("Docker is running")
 
             
 

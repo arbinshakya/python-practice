@@ -1,0 +1,7 @@
+version: '3.11'
+
+services:
+  app:
+    build: .
+    container_name: python-app
+    command: python app.py
