@@ -1,0 +1,8 @@
+fig.py
+setup.py
+fig_cli.egg-info/PKG-INFO
+fig_cli.egg-info/SOURCES.txt
+fig_cli.egg-info/dependency_links.txt
+fig_cli.egg-info/entry_points.txt
+fig_cli.egg-info/requires.txt
+fig_cli.egg-info/top_level.txt
